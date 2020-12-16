@@ -1,0 +1,75 @@
+{
+	"name": "CoC7kr_Compendium",
+	"title": "CoC7 Personal Enhanced Compendium Pack",
+	"description": "<p>크툴루 개인 컴펜디움 팩</p>",
+	"version": "1.0.0",
+	"minimumCoreVersion" : "0.7.7",
+	"compatibleCoreVersion": "0.7.7",
+	"author": "mrkb",
+	"esmodules": [
+	"babeleregister.js"
+	],
+	"scripts": [],
+	"styles": ["style.css"],
+	"packs": [
+    {
+		"label": "초기 세팅",
+		"entity": "Item",
+		"name": "setup",
+		"path": "packs/setup.db",
+		"system": "CoC7",
+		"module": "CoC7kr_Compendium"
+    },
+    {
+		"label": "직업",
+		"entity": "Item",
+		"name": "occupation",
+		"path": "packs/occupation.db",
+		"system": "CoC7",
+		"module": "CoC7kr_Compendium"
+    },
+    {
+		"label": "펄프 캐릭터 타입",
+		"entity": "Item",
+		"name": "archetype",
+		"path": "packs/archetype.db",
+		"system": "CoC7",
+		"module": "CoC7kr_Compendium"
+    },
+    {
+		"label": "재능",
+		"entity": "Item",
+		"name": "talent",
+		"path": "packs/talent.db",
+		"system": "CoC7",
+		"module": "CoC7kr_Compendium"
+    },
+    {
+		"label": "공포증과 집착증",
+		"entity": "RollTable",
+		"name": "phobia&philia",
+		"path": "packs/phobia&philia.db",
+		"system": "CoC7",
+		"module": "CoC7kr_Compendium"
+    },
+    {
+		"label": "광기의 발작",
+		"entity": "RollTable",
+		"name": "insane",
+		"path": "packs/insane.db",
+		"system": "CoC7",
+		"module": "CoC7kr_Compendium"
+    },
+    {
+		"label": "메이킹 가챠",
+		"entity": "RollTable",
+		"name": "gacha",
+		"path": "packs/gacha.db",
+		"system": "CoC7",
+		"module": "CoC7kr_Compendium"
+    }
+	],
+	"url": "https://github.com/MaronKB/13thagekr",
+	"manifest": "https://raw.githubusercontent.com/MaronKB/13thagekr/master/module.json",
+	"download": "https://github.com/MaronKB/13thagekr/archive/master.zip"
+}
