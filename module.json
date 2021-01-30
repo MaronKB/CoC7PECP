@@ -69,7 +69,7 @@
 		"module": "CoC7kr_Compendium"
     }
 	],
-	"url": "https://github.com/MaronKB/13thagekr",
-	"manifest": "https://raw.githubusercontent.com/MaronKB/13thagekr/master/module.json",
-	"download": "https://github.com/MaronKB/13thagekr/archive/master.zip"
+	"url": "https://github.com/MaronKB/CoC7PECP",
+	"manifest": "https://raw.githubusercontent.com/MaronKB/CoC7PECP/main/module.json",
+	"download": "https://github.com/MaronKB/CoC7PECP/archive/main.zip"
 }
